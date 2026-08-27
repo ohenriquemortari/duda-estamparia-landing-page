@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Duda Estamparia | Uniformes e Personalização em Sertãozinho</title>
+  <meta name="description" content="Uniformes profissionais, escolares e esportivos, camisetas, polos, bordado, silk, DTF e sublimação em Sertãozinho-SP. Peça seu orçamento pelo WhatsApp." />
+  <meta name="theme-color" content="#f47b20" />
+  <link rel="icon" href="assets/icon.png" />
+  <style>
+    :root{--orange:#f47b20;--orange2:#ff963f;--ink:#111315;--muted:#66707a;--soft:#f6f5f2;--line:#e7e4de;--white:#fff;--dark:#17191c;--shadow:0 20px 70px rgba(17,19,21,.12);--radius:24px;--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.55}img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,a{-webkit-tap-highlight-color:transparent}.container{width:min(calc(100% - 40px),var(--max));margin:auto}.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#a54e12}.eyebrow:before{content:"";width:28px;height:2px;background:var(--orange)}h1,h2,h3,p{margin-top:0}.section{padding:96px 0}.section-head{max-width:760px;margin-bottom:42px}.section h2{font-size:clamp(2rem,4vw,3.6rem);line-height:1.02;letter-spacing:-.045em;margin:12px 0 16px}.section-head p{color:var(--muted);font-size:1.08rem;max-width:660px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 20px;border-radius:999px;font-weight:800;transition:.2s ease;border:1px solid transparent}.btn-primary{background:var(--orange);color:#fff;box-shadow:0 12px 30px rgba(244,123,32,.26)}.btn-primary:hover{background:#db6817;transform:translateY(-1px)}.btn-ghost{background:rgba(255,255,255,.9);border-color:rgba(17,19,21,.12)}.btn-ghost:hover{background:#fff;transform:translateY(-1px)}
+    header{position:fixed;z-index:50;top:0;left:0;right:0;padding:14px 0;transition:.25s}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.nav-logo img{height:52px;width:auto}.nav-links{display:flex;gap:28px;align-items:center;font-size:.94rem;font-weight:750}.nav-cta{min-height:44px;padding:0 18px}.scrolled{background:rgba(255,255,255,.9);backdrop-filter:blur(14px);box-shadow:0 4px 30px rgba(0,0,0,.08)}
+    .hero{min-height:780px;display:grid;align-items:center;position:relative;overflow:hidden;background:#ece9e4}.hero-bg{position:absolute;inset:0}.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center}.hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 32%,rgba(255,255,255,.42) 56%,rgba(255,255,255,.02) 78%)}.hero-content{position:relative;z-index:2;padding-top:110px;max-width:680px}.hero h1{font-size:clamp(3.2rem,7vw,6.4rem);line-height:.92;letter-spacing:-.065em;margin:14px 0 24px;max-width:670px}.hero h1 span{color:var(--orange)}.hero p{font-size:clamp(1.05rem,1.8vw,1.3rem);max-width:610px;color:#4e555c;margin-bottom:28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.trust-row{display:flex;gap:22px;flex-wrap:wrap;margin-top:30px;color:#30343a;font-size:.9rem;font-weight:750}.trust-item{display:flex;align-items:center;gap:8px}.check{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid #dedbd5;color:var(--orange);font-weight:900}
+    .audience{background:var(--dark);color:white}.audience .eyebrow{color:#ffb67b}.audience .section-head p{color:#aeb4bb}.audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.audience-card{min-height:180px;padding:26px;border:1px solid rgba(255,255,255,.09);border-radius:20px;background:linear-gradient(150deg,rgba(255,255,255,.06),rgba(255,255,255,.02));display:flex;flex-direction:column;justify-content:space-between}.audience-card strong{font-size:1.26rem}.audience-card span{color:#aeb4bb;font-size:.94rem}.num{font-size:.78rem;color:#ff9e56;font-weight:900;letter-spacing:.14em}
+    .products-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:16px}.product-card{background:var(--soft);border:1px solid var(--line);border-radius:22px;padding:28px;min-height:230px;position:relative;overflow:hidden}.product-card:first-child{grid-row:span 2;min-height:476px;background:linear-gradient(150deg,#1b1d20,#262a2f);color:#fff}.product-card h3{font-size:1.55rem;line-height:1.1;margin:10px 0}.product-card p{color:var(--muted);max-width:340px}.product-card:first-child p{color:#b9bec4}.pill{display:inline-flex;border:1px solid #ddd8d0;background:#fff;border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:800}.product-card:first-child .pill{border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.06)}.stripe{position:absolute;right:-52px;bottom:-34px;width:210px;height:210px;border:34px solid var(--orange);border-radius:50%;opacity:.9}
+    .gallery{background:#fbfaf8}.gallery-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:16px}.gallery-card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}.gallery-card.featured{grid-row:span 2}.gallery-card img{width:100%;height:100%;object-fit:cover;background:#f0ece6}.gallery-card.featured img{min-height:100%;aspect-ratio:4/5}.gallery-card:not(.featured) img{aspect-ratio:4/3}.gallery-copy{padding:18px 18px 20px}.gallery-copy strong{display:block;font-size:1.08rem;margin-bottom:6px}.gallery-copy span{display:block;color:var(--muted);font-size:.94rem}
+    .techs{background:#fbfaf8}.tech-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.tech-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px}.tech-card .tag{font-size:.74rem;font-weight:900;color:#a54e12;letter-spacing:.1em}.tech-card h3{font-size:1.35rem;margin:10px 0}.tech-card p{color:var(--muted);font-size:.94rem;margin-bottom:0}
+    .process-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:start}.process-title{position:sticky;top:120px}.steps{border-left:1px solid var(--line)}.step{padding:4px 0 36px 34px;position:relative}.step:before{content:"";position:absolute;left:-7px;top:4px;width:13px;height:13px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 6px #fff}.step small{color:#a54e12;font-weight:900;letter-spacing:.12em}.step h3{font-size:1.55rem;margin:6px 0 8px}.step p{color:var(--muted);margin:0}
+    .proof{background:var(--orange);color:#fff;overflow:hidden}.proof-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.proof h2{font-size:clamp(2.2rem,5vw,4.8rem);line-height:.94;margin-bottom:20px}.proof p{color:#fff2e9;font-size:1.08rem}.proof-list{display:grid;grid-template-columns:1fr 1fr;gap:12px}.proof-item{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:18px;font-weight:800}
+    .date-block{padding:84px 0;background:#111315;color:white}.date-box{display:flex;align-items:center;justify-content:space-between;gap:30px}.date-box h2{font-size:clamp(2.3rem,5vw,4.6rem);margin:8px 0 8px;line-height:.95}.date-box p{color:#b9bec4;margin:0;max-width:650px}.date-box .btn{flex:0 0 auto}
+    .final-cta{position:relative;min-height:660px;display:grid;align-items:center;overflow:hidden;background:#e9e5df}.final-cta .bg{position:absolute;inset:0}.final-cta .bg img{width:100%;height:100%;object-fit:cover;object-position:center}.final-cta .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,22,25,.96) 0%,rgba(20,22,25,.88) 34%,rgba(20,22,25,.28) 60%,rgba(20,22,25,.03) 80%)}.final-content{position:relative;z-index:2;color:#fff;max-width:610px}.final-content .eyebrow{color:#ffb67b}.final-content h2{font-size:clamp(3rem,6vw,5.6rem);line-height:.93;margin:14px 0 20px}.final-content p{font-size:1.1rem;color:#d9dde1;max-width:560px}.final-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.contact{margin-top:28px;display:flex;gap:18px;flex-wrap:wrap;color:#c9cdd2;font-size:.9rem}
+    footer{background:#0b0c0e;color:#b4bac0;padding:38px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:28px}.footer-logo img{height:44px}.footer-meta{text-align:right;font-size:.85rem}.wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:white;box-shadow:0 14px 40px rgba(0,0,0,.22);font-size:24px;font-weight:900}.wa-float:hover{transform:translateY(-2px)}
+    @media(max-width:900px){.nav-links a:not(.nav-cta){display:none}.hero{min-height:760px}.hero-bg img{object-position:67% center}.hero-bg:after{background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(255,255,255,.91) 58%,rgba(255,255,255,.2) 100%)}.hero-content{max-width:580px}.audience-grid,.tech-grid,.gallery-grid{grid-template-columns:repeat(2,1fr)}.products-grid{grid-template-columns:1fr 1fr}.product-card:first-child{grid-row:auto;grid-column:span 2;min-height:300px}.gallery-card.featured{grid-row:auto;grid-column:span 2}.process-wrap,.proof-wrap{grid-template-columns:1fr;gap:32px}.process-title{position:static}.date-box{align-items:flex-start;flex-direction:column}.final-cta .bg img{object-position:70% center}.final-cta .bg:after{background:linear-gradient(90deg,rgba(20,22,25,.96) 0%,rgba(20,22,25,.9) 56%,rgba(20,22,25,.18) 100%)}}
+    @media(max-width:620px){.container{width:calc(100% - 28px);min-width:0}.section{padding:72px 0}.nav{gap:10px}.nav-logo{flex:0 0 auto}.nav-logo img{height:44px}.nav-links{min-width:0}.nav-cta{min-height:42px;font-size:.78rem;padding:0 12px;white-space:nowrap}.hero{min-height:760px;align-items:end;padding-bottom:54px}.hero-bg img{object-position:72% center}.hero-bg:after{background:linear-gradient(0deg,rgba(255,255,255,.99) 0%,rgba(255,255,255,.94) 58%,rgba(255,255,255,.38) 100%)}.hero-content{min-width:0;padding-top:120px}.hero h1{font-size:clamp(2.8rem,14vw,3.45rem);overflow-wrap:break-word}.hero p{font-size:1rem}.hero-actions{min-width:0}.hero-actions .btn{width:100%;min-width:0;padding-inline:14px;text-align:center;white-space:normal}.trust-row{gap:10px 18px}.trust-item{min-width:0}.audience-grid,.tech-grid,.products-grid,.proof-list,.gallery-grid{grid-template-columns:1fr}.product-card:first-child,.gallery-card.featured{grid-column:auto}.audience-card{min-height:150px}.process-wrap{gap:18px}.date-block{padding:64px 0}.final-cta{min-height:720px;align-items:end;padding-bottom:52px}.final-cta .bg img{object-position:72% center}.final-cta .bg:after{background:linear-gradient(0deg,rgba(20,22,25,.98) 0%,rgba(20,22,25,.88) 52%,rgba(20,22,25,.12) 100%)}.final-content h2{font-size:clamp(2.8rem,14vw,3.6rem)}.final-actions .btn{width:100%;min-width:0;text-align:center;white-space:normal}.footer-row{align-items:flex-start;flex-direction:column}.footer-meta{text-align:left}.wa-float{right:16px;bottom:16px}}
+  </style>
+</head>
+<body>
+<header id="header">
+  <div class="container nav">
+    <a class="nav-logo" href="#inicio" aria-label="Duda Estamparia"><img src="assets/logo.png" alt="Duda Estamparia" /></a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#solucoes">Soluções</a><a href="#produtos-reais">Produtos</a><a href="#processo">Como funciona</a><a href="#tecnicas">Técnicas</a>
+      <a class="btn btn-primary nav-cta" href="https://wa.me/5516993791851?text=Olá%2C%20vim%20pelo%20site%20da%20Duda%20Estamparia%20e%20quero%20pedir%20um%20orçamento." target="_blank" rel="noopener">Pedir orçamento</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-bg"><img src="assets/hero.png" alt="Uniformes e peças personalizadas produzidas pela Duda Estamparia" /></div>
+  <div class="container"><div class="hero-content">
+    <span class="eyebrow">Estamparia em Sertãozinho-SP</span>
+    <h1>Sua marca merece ser <span>vestida.</span></h1>
+    <p>Uniformes, camisetas, polos e peças personalizadas para empresas, escolas, times, equipes e eventos — da arte à entrega.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://wa.me/5516993791851?text=Olá%2C%20quero%20fazer%20um%20orçamento%20com%20a%20Duda%20Estamparia." target="_blank" rel="noopener">Pedir orçamento no WhatsApp →</a>
+      <a class="btn btn-ghost" href="#solucoes">Ver soluções</a>
+    </div>
+    <div class="trust-row"><span class="trust-item"><span class="check">✓</span> Arte aprovada antes</span><span class="trust-item"><span class="check">✓</span> Fale direto com quem produz</span><span class="trust-item"><span class="check">✓</span> Prazo combinado</span></div>
+  </div></div>
+</section>
+
+<section class="section audience" id="publicos"><div class="container">
+  <div class="section-head"><span class="eyebrow">Para quem produzimos</span><h2>Peças que colocam sua identidade em movimento.</h2><p>Do ambiente de trabalho à quadra, da sala de aula ao evento: a Duda ajuda sua equipe a vestir uma identidade consistente.</p></div>
+  <div class="audience-grid">
+    <div class="audience-card"><span class="num">01</span><div><strong>Empresas</strong><span>Polos, camisetas, jalecos e uniformes profissionais.</span></div></div>
+    <div class="audience-card"><span class="num">02</span><div><strong>Escolas e APMs</strong><span>Uniformes escolares e pedidos em lote.</span></div></div>
+    <div class="audience-card"><span class="num">03</span><div><strong>Times e equipes</strong><span>Uniformes esportivos, camisas e conjuntos.</span></div></div>
+    <div class="audience-card"><span class="num">04</span><div><strong>Academias</strong><span>Dry-fit e vestuário personalizado para equipes e alunos.</span></div></div>
+    <div class="audience-card"><span class="num">05</span><div><strong>Eventos e formaturas</strong><span>Camisetas e moletons com identidade própria.</span></div></div>
+    <div class="audience-card"><span class="num">06</span><div><strong>Profissionais</strong><span>Peças personalizadas para quem trabalha com a própria marca.</span></div></div>
+  </div>
+</div></section>
+
+<section class="section" id="solucoes"><div class="container">
+  <div class="section-head"><span class="eyebrow">O que fazemos</span><h2>Um só fornecedor para vestir sua equipe.</h2><p>Você não precisa coordenar vários prestadores. A Duda reúne vestuário e diferentes técnicas de personalização no mesmo processo.</p></div>
+  <div class="products-grid">
+    <article class="product-card"><span class="pill">Corporativo</span><h3>Uniformes profissionais e polos</h3><p>Peças para equipes comerciais, operacionais, atendimento, indústria e serviços, com aplicação da identidade da sua empresa.</p><div class="stripe"></div></article>
+    <article class="product-card"><span class="pill">Escolar</span><h3>Uniformes escolares</h3><p>Kits e peças para escolas e APMs, com produção organizada para pedidos em lote.</p></article>
+    <article class="product-card"><span class="pill">Esportivo</span><h3>Times e equipes</h3><p>Uniformes esportivos, camisas, conjuntos e dry-fit personalizados.</p></article>
+    <article class="product-card"><span class="pill">Personalizados</span><h3>Camisetas e moletons</h3><p>Para eventos, formaturas, projetos, equipes e ações internas.</p></article>
+    <article class="product-card"><span class="pill">Profissional</span><h3>Jalecos e peças com EPI</h3><p>Personalização para profissionais e equipes que precisam de apresentação e identificação.</p></article>
+  </div>
+</div></section>
+
+<section class="section gallery" id="produtos-reais"><div class="container">
+  <div class="section-head"><span class="eyebrow">Peças reais</span><h2>Fotos de produtos que a Duda já produz.</h2><p>Incluímos uma seção com imagens reais para mostrar variedade de peças, acabamentos e segmentos atendidos — do uniforme profissional ao conjunto esportivo.</p></div>
+  <div class="gallery-grid">
+    <article class="gallery-card featured"><img src="assets/produto-1.jpg" alt="Uniforme profissional laranja personalizado" /><div class="gallery-copy"><strong>Uniforme profissional</strong><span>Conjunto em tecido funcional com personalização aplicada para equipe operacional.</span></div></article>
+    <article class="gallery-card"><img src="assets/produto-2.jpg" alt="Camisa profissional azul com gola verde e bolso personalizado" /><div class="gallery-copy"><strong>Camisa com bolso personalizado</strong><span>Peça corporativa com identidade visual aplicada na frente.</span></div></article>
+    <article class="gallery-card"><img src="assets/produto-3.jpg" alt="Short esportivo preto personalizado" /><div class="gallery-copy"><strong>Linha esportiva</strong><span>Short para uniformes de treino, jogos e equipes esportivas.</span></div></article>
+    <article class="gallery-card"><img src="assets/produto-4.jpg" alt="Agasalho esportivo vermelho personalizado" /><div class="gallery-copy"><strong>Conjunto esportivo</strong><span>Agasalho completo para times, escolas e projetos esportivos.</span></div></article>
+    <article class="gallery-card"><img src="assets/hero.png" alt="Mostruário de polos, camisetas e uniformes da Duda Estamparia" /><div class="gallery-copy"><strong>Mostruário Duda</strong><span>Polos, camisetas e uniformes em uma apresentação comercial mais ampla.</span></div></article>
+  </div>
+</div></section>
+
+<section class="section techs" id="tecnicas"><div class="container">
+  <div class="section-head"><span class="eyebrow">Personalização</span><h2>Você traz a necessidade. A gente indica o melhor caminho.</h2><p>Não precisa chegar sabendo qual técnica usar. A escolha depende da peça, quantidade, arte e aplicação.</p></div>
+  <div class="tech-grid">
+    <div class="tech-card"><span class="tag">01 · TÉCNICA</span><h3>Silk Screen</h3><p>Excelente para produção em quantidade, cores sólidas e aplicações duráveis.</p></div>
+    <div class="tech-card"><span class="tag">02 · TÉCNICA</span><h3>DTF</h3><p>Versátil para artes detalhadas, múltiplas cores e também pedidos menores.</p></div>
+    <div class="tech-card"><span class="tag">03 · TÉCNICA</span><h3>Sublimação</h3><p>Ideal para peças esportivas e estampas integradas ao tecido.</p></div>
+    <div class="tech-card"><span class="tag">04 · TÉCNICA</span><h3>Bordado computadorizado</h3><p>Acabamento de alto valor percebido para logos, polos, jalecos e uniformes.</p></div>
+  </div>
+</div></section>
+
+<section class="section" id="processo"><div class="container process-wrap">
+  <div class="process-title"><span class="eyebrow">Como funciona</span><h2>Do pedido à entrega, sem complicação.</h2><p style="color:var(--muted);max-width:460px">Um processo simples para você ter clareza sobre a solução, a arte e a data de entrega antes da produção.</p></div>
+  <div class="steps">
+    <div class="step"><small>ETAPA 01</small><h3>Conte o que você precisa</h3><p>Peça, quantidade, aplicação, objetivo e data necessária.</p></div>
+    <div class="step"><small>ETAPA 02</small><h3>Definimos a melhor solução</h3><p>Indicamos a técnica e o caminho de produção mais adequados ao seu pedido.</p></div>
+    <div class="step"><small>ETAPA 03</small><h3>Você aprova a arte</h3><p>A produção só avança depois da sua aprovação.</p></div>
+    <div class="step"><small>ETAPA 04</small><h3>Produzimos seu pedido</h3><p>Personalização, acabamento e conferência são feitos pela equipe.</p></div>
+    <div class="step"><small>ETAPA 05</small><h3>Retirada ou entrega combinada</h3><p>O prazo é definido no orçamento para que sua data faça parte do planejamento.</p></div>
+  </div>
+</div></section>
+
+<section class="section proof"><div class="container proof-wrap">
+  <div><span class="eyebrow" style="color:#ffe0ca">Por que Duda</span><h2>Fale direto com quem produz.</h2><p>Mais do que personalizar uma peça, a Duda orienta a escolha, apresenta a arte antes de fabricar e combina a data de entrega com você.</p></div>
+  <div class="proof-list"><div class="proof-item">Arte aprovada antes da produção</div><div class="proof-item">Silk, DTF, sublimação e bordado</div><div class="proof-item">Pedidos em lote e projetos menores</div><div class="proof-item">Atendimento direto e próximo</div></div>
+</div></section>
+
+<section class="date-block"><div class="container date-box"><div><span class="eyebrow" style="color:#ffb67b">Planejamento</span><h2>Tem uma data? Fale com a gente antes.</h2><p>Prazo combinado faz parte do pedido. Conte quando você precisa das peças para avaliarmos a produção e alinharmos a entrega.</p></div><a class="btn btn-primary" href="https://wa.me/5516993791851?text=Olá%2C%20tenho%20uma%20data%20para%20meu%20pedido%20e%20quero%20consultar%20o%20prazo%20de%20produção." target="_blank" rel="noopener">Consultar prazo →</a></div></section>
+
+<section class="final-cta" id="contato"><div class="bg"><img src="assets/cta-final.png" alt="Atendimento e entrega de pedido na Duda Estamparia" /></div><div class="container"><div class="final-content">
+  <span class="eyebrow">Vamos começar?</span><h2>Vamos vestir sua ideia?</h2><p>Conte o que você precisa. A gente ajuda a escolher a peça, a personalização e o melhor caminho para produzir.</p>
+  <div class="final-actions"><a class="btn btn-primary" href="https://wa.me/5516993791851?text=Olá%2C%20vim%20pelo%20site%20e%20quero%20pedir%20um%20orçamento." target="_blank" rel="noopener">Falar com a Duda no WhatsApp →</a><a class="btn btn-ghost" href="mailto:contato@dudaestamparia.com.br">Enviar e-mail</a></div>
+  <div class="contact"><span>Rua Barão do Rio Branco, 100 — Centro, Sertãozinho-SP</span><span>(16) 99379-1851</span><span>Seg–sex 8h–18h · Sáb 8h–12h</span></div>
+</div></div></section>
+</main>
+
+<footer><div class="container footer-row"><a class="footer-logo" href="#inicio"><img src="assets/logo-white.png" alt="Duda Estamparia" /></a><div class="footer-meta">Duda Estamparia & Artigos Esportivos<br>Sertãozinho, Ribeirão Preto e região</div></div></footer>
+<a class="wa-float" aria-label="Falar no WhatsApp" href="https://wa.me/5516993791851?text=Olá%2C%20vim%20pelo%20site%20da%20Duda%20Estamparia." target="_blank" rel="noopener">✆</a>
+<script>const h=document.getElementById('header');addEventListener('scroll',()=>h.classList.toggle('scrolled',scrollY>30));</script>
+</body>
+</html>
