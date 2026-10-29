@@ -1,0 +1,13 @@
+{
+  "name": "duda-estamparia",
+  "version": "1.0.0",
+  "description": "Landing page da Duda Estamparia & Artigos Esportivos",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

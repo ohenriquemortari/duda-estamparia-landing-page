@@ -1,2 +1,7 @@
-.vercel
-
+node_modules/
+.vercel/
+.claude/
+*.zip
+*.rar
+*.pdf
+duda-landing-page-v2/
